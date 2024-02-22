@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0F0F0F;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 39px;
+}
+#logo-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#manu-bar {
+  font-size: 24px;
+  color: #ffffff;
+}
+#logo-box {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+#logo-icon {
+  font-size: 28px;
+  color: red;
+}
+#logo-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 24px;
+}
+#header-center {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+#search-bar {
+  display: flex;
+  flex-direction: row;
+}
+#search-bar > div > input {
+  width: 500px;
+  padding: 10px 10px;
+  border-radius: 50px 0px 0px 50px;
+  border: 1px solid;
+}
+#search-bar > div > i {
+  padding: 9.7px 20px;
+  background-color: #222222;
+  border: 1px solid black;
+  border-radius: 0px 50px 50px 0px;
+  color: #ffffff;
+}
+#micro > i {
+  color: #ffffff;
+  background-color: #222222;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 50px;
+}
+#header-right {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+#header-right > div > i {
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+#header-right > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#profile {
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  background-color: #ec407a;
+}
+#bell-icon {
+  color: #ffffff;
+}
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+#main-content {
+  display: flex;
+  flex-direction: row;
+}
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  align-items: center;
+  gap: 20px;
+}
+#sidebar > div {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#sidebar > div > div {
+  font-size: 12px;
+}
+#center-content {
+  display: flex;
+  flex-direction: column;
+}
+#sugetion {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 5px 0px;
+}
+#sugetion > div {
+  padding: 5px 10px;
+  background-color: #272727;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+}
+#content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+#content > div {
+  width: 24%;
+  height: 270px;
+  border: none;
+  border-radius: 10px;
+}
+#content > div > img {
+  width: 100%;
+  border-radius: 10px;
+}
+#video-info {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  gap: 10px;
+  padding: 10px 10px;
+  color: white;
+}
+#logo-video {
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+  background-color: #ffffff;
+}
+#video-heading {
+  background-color: transparent;
+  padding-top: 5px;
+  height: 10px;
+}
+.channel-name {
+  background-color: transparent;
+  padding-left: 57px;
+  position: relative;
+  bottom: 12px;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+.views-time {
+  padding-left: 57px;
+  color: #aaaaaa;
+  font-size: 14px;
+  background-color: transparent;
+  position: relative;
+  bottom: 8px;
+}
